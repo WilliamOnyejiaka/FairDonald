@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH BRO'S FORM</title>
+    <!-- changed to relative path and remove space from the filename ( You have to rename the filename to formStyle) -->
+</head>
+<body>
+<link rel="stylesheet" href="formstlye.css">
+
+    <div class="container">
+        <div class="form_header">
+            <h1 class="form_title">
+                Login Form
+            </h1>
+        </div>
+
+        <div class="buttons">
+            <button id="login_btn">Login</button>
+            <button id="signup_btn">SignUp</button>
+        </div>
+
+        <div class="main_form">
+            
+            <div class="login_form">
+                <input type="email" placeholder="Email Address" id="login_email"> <br>
+                <input type="password" placeholder="Password" id="login_password">
+                
+                <div class="login_extra">
+                    <a href="#" id="pass">Forgot Password?</a>
+                    
+                </div>
+
+            </div>
+
+            <div class="signup_form">
+                <input type="text" placeholder="Full Name" id="signup_name">  <br>
+                <input type="email" placeholder="Email Address" id="signup_email"><br>
+                <input type="password" placeholder="Password" id="signup_password">
+                <br>
+
+                <span class="error_message"></span> <!-- This part no make sense because u are not using javascript for the validation-->
+
+                <input type="password" placeholder="Confirm Password" id="confirm_password">
+            </div>
+
+            <input type="submit" value="Submit" id="submit">
+            
+        </div>
+    </div>
+    
+    <!-- <type id="text area"></type> (I do not know what u did here) -->
+</body>
+</html>
